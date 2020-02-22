@@ -15,7 +15,6 @@
 		77050688187CE43400BA4635 /* SFMDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77050686187CE43400BA4635 /* SFMDocument.xib */; };
 		7705068B187CE43400BA4635 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77050689187CE43400BA4635 /* MainMenu.xib */; };
 		7705068D187CE43400BA4635 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7705068C187CE43400BA4635 /* Images.xcassets */; };
-		77050694187CE43400BA4635 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77050693187CE43400BA4635 /* XCTest.framework */; };
 		77050695187CE43400BA4635 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77050671187CE43300BA4635 /* Cocoa.framework */; };
 		7705069D187CE43400BA4635 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7705069B187CE43400BA4635 /* InfoPlist.strings */; };
 		770506E0187CF2B100BA4635 /* SFMWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770506DF187CF2B100BA4635 /* SFMWindowController.m */; };
@@ -77,8 +76,6 @@
 		77A0615B23DADC530089EEE2 /* stockfish-bmi2 in Resources */ = {isa = PBXBuildFile; fileRef = 77A0615823DADC530089EEE2 /* stockfish-bmi2 */; };
 		77A0615C23DADC530089EEE2 /* stockfish-sse42 in Resources */ = {isa = PBXBuildFile; fileRef = 77A0615923DADC530089EEE2 /* stockfish-sse42 */; };
 		77A0615D23DADC530089EEE2 /* stockfish-64 in Resources */ = {isa = PBXBuildFile; fileRef = 77A0615A23DADC530089EEE2 /* stockfish-64 */; };
-		77AE06B21FFB2D8A00AD4C72 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AE06B01FFB2D8A00AD4C72 /* Crashlytics.framework */; };
-		77AE06B31FFB2D8A00AD4C72 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AE06B11FFB2D8A00AD4C72 /* Fabric.framework */; };
 		77AE06B61FFB2EDA00AD4C72 /* SFMApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AE06B51FFB2EDA00AD4C72 /* SFMApplicationDelegate.m */; };
 		77CA8B051889C42F004402D2 /* SFMFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CA8B041889C42F004402D2 /* SFMFormatter.m */; };
 		77CA8B071889C499004402D2 /* SFMFormatterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CA8B061889C499004402D2 /* SFMFormatterTest.m */; };
@@ -114,7 +111,6 @@
 		7705068A187CE43400BA4635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		7705068C187CE43400BA4635 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		77050692187CE43400BA4635 /* StockfishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockfishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		77050693187CE43400BA4635 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7705069A187CE43400BA4635 /* StockfishTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StockfishTests-Info.plist"; sourceTree = "<group>"; };
 		7705069C187CE43400BA4635 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		770506DE187CF2B100BA4635 /* SFMWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMWindowController.h; sourceTree = "<group>"; };
@@ -223,8 +219,6 @@
 		77A0615823DADC530089EEE2 /* stockfish-bmi2 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "stockfish-bmi2"; sourceTree = "<group>"; };
 		77A0615923DADC530089EEE2 /* stockfish-sse42 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "stockfish-sse42"; sourceTree = "<group>"; };
 		77A0615A23DADC530089EEE2 /* stockfish-64 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "stockfish-64"; sourceTree = "<group>"; };
-		77AE06B01FFB2D8A00AD4C72 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		77AE06B11FFB2D8A00AD4C72 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		77AE06B41FFB2EDA00AD4C72 /* SFMApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFMApplicationDelegate.h; sourceTree = "<group>"; };
 		77AE06B51FFB2EDA00AD4C72 /* SFMApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFMApplicationDelegate.m; sourceTree = "<group>"; };
 		77CA8B031889C42F004402D2 /* SFMFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFMFormatter.h; path = Stockfish/SFMFormatter.h; sourceTree = "<group>"; };
@@ -243,9 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				779925DC1882914B00EAAEDD /* QuartzCore.framework in Frameworks */,
-				77AE06B21FFB2D8A00AD4C72 /* Crashlytics.framework in Frameworks */,
 				77050672187CE43300BA4635 /* Cocoa.framework in Frameworks */,
-				77AE06B31FFB2D8A00AD4C72 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +246,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				77050695187CE43400BA4635 /* Cocoa.framework in Frameworks */,
-				77050694187CE43400BA4635 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +269,6 @@
 				77050698187CE43400BA4635 /* StockfishTests */,
 				77050670187CE43300BA4635 /* Frameworks */,
 				7705066F187CE43300BA4635 /* Products */,
-				77AE06B01FFB2D8A00AD4C72 /* Crashlytics.framework */,
-				77AE06B11FFB2D8A00AD4C72 /* Fabric.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -297,7 +286,6 @@
 			children = (
 				779925DB1882914B00EAAEDD /* QuartzCore.framework */,
 				77050671187CE43300BA4635 /* Cocoa.framework */,
-				77050693187CE43400BA4635 /* XCTest.framework */,
 				77050673187CE43300BA4635 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -584,7 +572,7 @@
 				ORGANIZATIONNAME = "Daylen Yang";
 				TargetAttributes = {
 					7705066D187CE43300BA4635 = {
-						DevelopmentTeam = NR8F7ZFLA3;
+						DevelopmentTeam = GJ679LG697;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
@@ -671,7 +659,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run aca44c50c3e698d886faa23fbcc5fb250ad755ce c8560edbba800e57faaa0580383ce29c9ecbb2b40f4dc6e273e1f38b11b0d4c0";
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -918,7 +907,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 28;
-				DEVELOPMENT_TEAM = NR8F7ZFLA3;
+				DEVELOPMENT_TEAM = GJ679LG697;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -949,7 +938,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 28;
-				DEVELOPMENT_TEAM = NR8F7ZFLA3;
+				DEVELOPMENT_TEAM = GJ679LG697;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1079,7 +1068,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 28;
-				DEVELOPMENT_TEAM = NR8F7ZFLA3;
+				DEVELOPMENT_TEAM = GJ679LG697;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

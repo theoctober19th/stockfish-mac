@@ -79,4 +79,43 @@
     [self.prefWinController.window makeKeyAndOrderFront:nil];
 }
 
+- (IBAction)displayFENInputDialog:(id)sender {
+    NSAlert *alert = [[NSAlert alloc] init];
+    [alert setMessageText:@"Enter FEN/PGN notation to set up the board."];
+    [alert addButtonWithTitle:@"Ok"];
+    [alert addButtonWithTitle:@"Cancel"];
+    NSTextField *input = [[NSTextField alloc] initWithFrame:NSMakeRect(0, 0, 500, 50)];
+    [alert setAccessoryView:input];
+    [[alert window] setInitialFirstResponder:input];
+    NSInteger button = [alert runModal];
+    if (button == NSAlertFirstButtonReturn){
+        NSDocumentController *dc = NSDocumentController.sharedDocumentController;
+        NSString *str = [input stringValue];
+        NSError *err = nil;
+        SFMPGNFile *game = [SFMPGNFile gameFromPgnOrFen:str error:&err];
+        if (game == nil) {
+            NSAlert *alert = [[NSAlert alloc] init];
+            [alert setMessageText:@"Could not understand the setup."];
+            [alert addButtonWithTitle:@"OK"];
+            [alert setInformativeText:@"The text you entered was not understood.  Check that the entered text contains a valid PGN or FEN and try again."];
+            [alert runModal];
+            return;
+        }
+        
+        SFMDocument *doc = [self findBlankDocument];
+        if (doc == nil) {
+            doc = (SFMDocument *)[dc openUntitledDocumentAndDisplay:NO error:&err];
+        }
+        doc.pgnFile = game;
+        if (doc.windowControllers.count == 0) {
+            [doc makeWindowControllers];
+            [doc showWindows];
+        }
+    }else{
+        
+    }
+}
+
 @end
+
+
