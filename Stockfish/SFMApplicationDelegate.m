@@ -7,8 +7,8 @@
 //
 
 #import "SFMApplicationDelegate.h"
-#import <Fabric/Fabric.h>
-#import <Crashlytics/Crashlytics.h>
+//#import <Fabric/Fabric.h>
+//#import <Crashlytics/Crashlytics.h>
 
 @implementation SFMApplicationDelegate
 
